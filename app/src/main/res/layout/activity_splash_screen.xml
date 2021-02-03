@@ -4,6 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorRed"
     tools:context=".splashscreen.SplashScreenActivity">
 
+    <ImageView
+        android:id="@+id/imgJualan"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:src="@drawable/jualan"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="299dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="127dp"
+        android:contentDescription="@string/sell" />
+
+    <ImageView
+        android:id="@+id/imgTeman"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:src="@drawable/teman"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="322dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="127dp"
+        android:contentDescription="@string/friend" />
 </androidx.constraintlayout.widget.ConstraintLayout>

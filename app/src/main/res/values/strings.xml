@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">MyJualanTeman</string>
+    <string name="sell">Jualan</string>
+    <string name="friend">Teman</string>
+    <string name="desc_register">Dengan masuk atau mendaftar kamu telah menyetujui ketentuan\nLayanan dan kebijakan Privasi</string>
+    <string name="sign_in_facebook">MASUK DENGAN FACEBOOK</string>
+    <string name="sign_in_google">MASUK DENGAN GOOGLE</string>
+    <string name="desc_search">Mau cari makanan dan restoran favorite kamu ?</string>
+    <string name="welcome">Selamat datang di Jualan Teman</string>
+    <string name="eat">Makan</string>
+    <string name="back">Back</string>
+    <string name="input_phone">Masukkan No Hp</string>
+    <string name="next">Lanjut</string>
+    <string name="input_otp">Input Otp</string>
+    <string name="code_verification">Masukkan 6-digit kode verifikasi\n telah dikirimkan melalui SMS ke</string>
+    <string name="search">Cari</string>
 </resources>

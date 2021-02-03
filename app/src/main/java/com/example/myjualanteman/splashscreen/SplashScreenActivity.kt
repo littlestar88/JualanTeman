@@ -1,8 +1,10 @@
 package com.example.myjualanteman.splashscreen
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.myjualanteman.R
+import android.os.Handler
+import com.example.myjualanteman.login.LoginActivity
 import com.example.myjualanteman.databinding.ActivitySplashScreenBinding
 
 class SplashScreenActivity : AppCompatActivity() {
@@ -11,7 +13,14 @@ class SplashScreenActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivitySplashScreenBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
 
-        setContentView(R.layout.activity_splash_screen)
+        Handler().postDelayed({
+            startActivity(Intent(this,
+                LoginActivity::class.java ))
+            finish()
+        },5000)
     }
 }
